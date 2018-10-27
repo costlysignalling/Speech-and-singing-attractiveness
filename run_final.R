@@ -1,7 +1,7 @@
 
 start<-Sys.time()
 
-data<-read.delim("raw.data.ratings5.txt")
+data<-read.delim("raw.data.ratings6.txt")
 
 #function enabling us to transform frequencies into musical distances (in halftones) from A4 (440 Hz)
 halftones<-function(freq){
